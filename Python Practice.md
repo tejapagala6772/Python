@@ -52,9 +52,6 @@ user_age = int(input("Enter your age: "))
 next_year = user_age + 1
 print(f"Next year, you'll be {next_year} years old.")
 ```
-
-
-Python Basics: Data Types & I/O
 Data Types
 int – whole number → age = 25
 float – decimal number → price = 99.99
@@ -62,6 +59,7 @@ string – text → city = "Delhi"
 bool – True/False → is_active = True
 
 Check any type with type(variable).
+
 
 Input & Output
 
@@ -81,3 +79,18 @@ Converting input to numbers:
 python
 age = int(input("Enter your age: "))
 print("Next year:", age + 1)
+
+
+Every value in Python has a type, and the type decides what operations are allowed on it.
+You can add two ints directly, but adding an int to a string needs conversion first.
+int(), float(), str() are the common conversion functions.
+int and float are both numeric, but behave differently — dividing two ints still gives a float (5 / 2 = 2.5).
+Strings support + for joining and * for repeating, e.g. "Hi" * 3 → "HiHiHi".
+Booleans are a subtype of int — True acts like 1, False acts like 0.
+So True + True equals 2.
+input() pauses the program and waits for the user to type and press Enter.
+Whatever input() returns is always a string, even if it looks like a number.
+That's why numeric input usually needs int() or float() before doing math on it.
+print() can take multiple values separated by commas.
+It automatically adds a space between them and a newline at the end.
+Both behaviors can be changed using the sep and end parameters.

@@ -52,3 +52,32 @@ user_age = int(input("Enter your age: "))
 next_year = user_age + 1
 print(f"Next year, you'll be {next_year} years old.")
 ```
+
+
+Python Basics: Data Types & I/O
+Data Types
+int – whole number → age = 25
+float – decimal number → price = 99.99
+string – text → city = "Delhi"
+bool – True/False → is_active = True
+
+Check any type with type(variable).
+
+Input & Output
+
+print() → displays output
+
+python
+print("Hello, World!")
+
+input() → takes user input (always returns a string)
+
+python
+name = input("Enter your name: ")
+print("Hello,", name)
+
+Converting input to numbers:
+
+python
+age = int(input("Enter your age: "))
+print("Next year:", age + 1)

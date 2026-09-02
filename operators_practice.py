@@ -13,7 +13,7 @@
 
 # 1. ARITHMETIC OPERATORS
 
-# +, -, *, /, //, %, **
+# +, -, *, /, //, %
 
 # Addition (+)
 

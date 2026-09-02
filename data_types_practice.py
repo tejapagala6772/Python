@@ -1,3 +1,42 @@
+# VARIABLES
+#variable =value
+
+a=10
+print(a)
+o/p 10
+
+a,b,c=1,2,3
+print(a,b,c)
+o/p 1 2 3
+
+a=1,2,3
+print(a)
+o/p (1,2,3)
+
+
+a=b=c=10
+print(a)
+print(b)
+print(c)
+o/p 10 
+    10
+    10
+
+abc=20
+print(abc)
+o/p 20
+
+_a=40
+print(_a)
+o/p 40
+
+#id-variable location
+abcd=10
+print(id(abcd))
+o/p 4391431040
+
+
+
 
 # PYTHON DATA TYPES 
 
@@ -160,6 +199,82 @@ print("Type:", type(value9))
 o/p   List to Tuple: (1, 2, 3)
       Type: <class 'tuple'>
 
+Input & Output Practice
+
+1. print()
+
+Example:
+
+print("Hello, World!")
+
+o/p:  Hello, World!
+
+
+2. print() with numbers
+
+Example:
+
+print(10)
+print(20)
+
+o/p: 10
+     20
+
+
+3. print() with multiple values
+
+Example:
+
+name = "Python"
+version = 3
+
+print(name, version)
+
+o/p: Python
+     3
+
+
+4. input()
+
+Example:
+
+name = input("Enter your name: ")
+
+print("Hello", name)
+
+o/p: Enter your name: Teja
+     Hello Teja
+
+
+5. input() for a number
+
+Example:
+
+age = int(input("Enter your age: "))
+
+print("Your age is", age)
+
+o/p: Enter your age: 22
+     Your age is 22
+
+
+input() for two values
+
+Example:
+
+name = input("Enter your name: ")
+city = input("Enter your city: ")
+
+print("Name:", name)
+print("City:", city)
+
+o/p:
+
+Enter your name: Teja
+Enter your city: Hyderabad
+
+Name: Teja
+City: Hyderaba
 
 
 

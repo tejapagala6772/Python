@@ -1,18 +1,32 @@
 # VARIABLES
 #variable =value
 
+#Creating a Variable
+
+name = "Python"
+print(name)
+o/p Python
+
 a=10
 print(a)
 o/p 10
 
-a,b,c=1,2,3
-print(a,b,c)
-o/p 1 2 3
 
-a=1,2,3
+#Assigning Multiple Variables
+a,b,c=1,2,3
 print(a)
+print(b)
+print(c)
+o/p 
+1
+2 
+3
+
+a1234=1,2,3
+print(a1234)
 o/p (1,2,3)
 
+#Assigning the Same Value
 
 a=b=c=10
 print(a)
@@ -22,13 +36,32 @@ o/p 10
     10
     10
 
-abc=20
-print(abc)
-o/p 20
+#Changing a Variable Value
+x = 10
+print(x)
 
-_a=40
-print(_a)
-o/p 40
+x = 20
+print(x)
+o/p 10
+    20
+
+#Multiple variables
+name = "Python"
+age = 10
+version = 3.14
+is_easy = True
+
+print(name)
+print(age)
+print(version)
+print(is_easy)
+
+o/p Python
+    10
+    3.14
+    True
+
+
 
 #id-variable location
 abcd=10
@@ -104,12 +137,9 @@ student = {
     "age": 30,
     "course": "CSE"
 }
-print("\nDictionary:", student)
-print("Type:", type(student))
-
-
-Dictionary: {'name': 'Max', 'age': 30, 'course': 'CSE'}
-Type: <class 'dict'>
+print(student)
+o/p
+{'name': 'Max', 'age': 30, 'course': 'CSE'}
 
 
 
